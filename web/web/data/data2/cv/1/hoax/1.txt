@@ -1,0 +1,18 @@
+Berita Palsu Polling Google Soal Kepemimpinan Jokowi
+tirto.id - Pada 2 April 2018, muslimbersatu.info mempublikasikan tulisan berjudul "Polling Google: 86% Tidak Setuju Jokowi 2 Periode". Artikel tersebut menyebutkan jajak pendapat dilakukan Google Polling dan hasilnya: 86 persen responden menyatakan Sangat Tidak Setuju Jokowi memimpin RI lagi di 2019-2024.
+
+Tak hanya muslimbersatu.info, berita serupa pun dibagikan oleh situs lainnya, seperti gelora.co, b-islam24h.com, serta portal-islam.id. Seperti halnya muslimbersatu.info, tiga situs tersebut sama-sama menggunakan frase "Polling Google" di judul tulisan.
+
+Berdasarkan laporan aplikasi CrowdTangle, artikel tentang "Polling Google: 86% Tidak Setuju Jokowi 2 Periode" yang dipublikasikan Media Muslim Bersatu berpotensi untuk menjadi viral karena pada 2 April 2018 pukul 18:19 WIB sebaran artikel ini meningkat 8,47 kali lebih tinggi dibandingkan konten lainnya di page yang sama.
+
+Artikel yang dipublikasikan muslimbersatu.info tersebut menggunakan pemberitaan yang berasal dari googlevote.gdn sebagai sumber rujukan utama dan satu-satunya.
+
+Domain .gdn bersifat generik. Artinya, situs yang menggunakan domain .gdn dibuat tanpa dikhususkan untuk tujuan yang spesifik. Misalnya, .org digunakan untuk organisasi dan.edu digunakan untuk pendidikan.
+
+Sumber pemberitaan ini berasal dari artikel berjudul "Joko Widodo Dianggap Layak Memimpin untuk Dua Periode, Anda Setuju atau Tidak? Isi Polling Cepatnya di Sini". Dalam artikel yang dipublikasikan pada 28 Maret 2018 tersebut, masyarakat/pembaca diminta memberikan suaranya atas pilihan apakah Presiden Joko Widodo layak atau tidak memimpin RI 2019 dan 2024. Hingga 3 April 2018 pukul 13:22 WIB, jumlah voters sebanyak 57.046 dengan 86 persen memilih tidak setuju dan 14 persen setuju. Polling ditutup pada 20 April 2018.
+
+Penelusuran atas profil admin portal googlevote.gdn, diketahui ia memiliki 40 blog, di antaranya googlepolling.gdn, facebooksurvey.gdn, rakyatmerdeka.gdn dan koranlampuhijau.blogspot.com. Selain itu, dari whois.com terlihat pemilik akun www.googlevote.gdn adalah Google Media Polling yang beralamat di Pasir Panjang Road, Singapura. 
+
+Googlevote.gdn bukan bagian dari google.com. Sehingga dapat dipastikan bahwa situs ini tidak berafiliasi dengan Google dan seluruh artikel yang dipublikasi pun tidak menggambarkan hasil survei Google. Lebih jelas lagi: Google tidak membuat polling tersebut.
+
+Dengan menggunakan frase "Polling Google" sebagai judul, padahal Google tidak pernah melakukan polling tersebut, muslimbersatu.info terbukti memakai sumber yang salah sehingga laporannya pun bisa dikategorikan berita palsu (false news).

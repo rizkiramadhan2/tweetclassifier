@@ -1,0 +1,23 @@
+Snapdragon 632, 439, 429 Bawa Teknologi Premium ke Ponsel Pemula https://t.co/BGl0RPUOsY
+
+TEMPO.CO, Jakarta - Qualcomm mengumumkan tiga seri chipset terbaru, yakni Snapdragon 632, 439 dan 429 untuk platform mobile. Chipset tersebut dikembangkan untuk memberikan performa yang lebih baik.
+
+“Snapdragon 632, 439 dan 429 dibuat untuk memberi peningkatan performa, efisiensi daya, grafis unggul, kemampuan AI dan fitur-fitur konektivitas bagi pengguna,” ujar Vice President Product Management Qualcomm Technologies Kedar Kondap, dalam keterangan yang diterima Tempo, 27 Juni 2018.
+
+Qualcomm terus membawa banyak kemajuan teknologi premium ke kelas bawah, yang membantu mengubah pengalaman konsumen di pasar yang lebih luas. 632 terbaru, kata Kondap, membawa beberapa pengalaman yang dibutuhkan, termasuk mainstream gaming, pengambilan video beresolusi 4K, AI, dan konektivitas LTE berkecepatan tinggi dengan harga lebih terjangkau.
+
+Snapdragon 632 terbuat dari teknologi proses FinFET canggih yang menawarkan peningkatan performa hingga 40 persen. Chipset ini juga dipadukan dengan CPU KryoTM 250, serta kualitas grafik AdrenoTM 506.
+
+"Dengan itu, penggemar kamera dapat menikmati sensor 24 megapiksel atau kamera ganda dengan masing-masing sensor 13 megapiksel," tambah Kondap. "Sementara resolusi tampilan layar dapat ditingkatkan hingga FHD+. Snapdragon 632 juga mengusung modem X9 LTE teknologi LTE Advanced seperti carrier aggregation".
+
+Lebih dari 1.350 perangkat dibekali chipset seri Snapdragon 600 dan 2.300 lebih perangkat dipasang seri Snapdragon 400 telah diumumkan oleh produsen perangkat global. Platform generasi baru ini membawa peningkatan besar yang sudah berhasil dan kaya akan fitur.
+
+Sedangkan Snapdragon 439 dan 429 merupakan chipset yang diciptakan untuk membawa pengalaman populer untuk pasar umum, dan konsumen yang peduli akan harga. Keduanya dilengkapi kemampuan AI yang meningkatkan pengalaman kamera, suara, dan keamanan.
+
+"Seri tersebut dibuat dengan kecanggihan teknologi proses FinFET. Snapdragon 439 dan 429 meningkatkan performa CPU dan efisiensi daya hingga 25 persen. Keduanya memiliki fitur modem X6 LTE untuk unduh cepat, streaming video lancar, dan penjelajahan web yang mulus," kata Kondap.
+
+Kedua seri tersebut memiliki perbedaan dari segi CPU dan kualitas grafik. Snapdragon 439 dilengkapi dengan CPU octa-core, menambah GPU Adreno 505 dengan peningkatan grafis lebih cepat 20 persen. Sedang Snapdragon 429 mengusung GPU Adreno 504 dengan peningkatan grafis 50 persen.
+
+Selain itu, Snapdragon 439 memiliki fitur kamera tunggal sensor 21 megapiksel dan kamera ganda masing-masing 8 megapiksel dengan tampilan FHD+. Sedangkan Snapdragon 429 mengusung kamera tunggal sensor 16 megapiksel dan 8 megapiksel kamera ganda serta tampilan HD+.
+
+"Ketiga seri memiliki kecocokan perangkat lunak dengan chipset Snapdragon 626, 625 dan 450. Perangkat komersil yang ditenagai Snapdragon 632, 439, dan 429 diperkirakan akan meluncur pada pertengahan kedua tahun ini," ujar Kondap.

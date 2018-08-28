@@ -1,0 +1,13 @@
+Sistem Twitter Tindak 9,9 Juta Akun Robot Per Minggu https://t.co/xDZMZ9MxMN
+
+Jakarta - Untuk memerangi akun spam atau bot (robot) berbahaya secara strategis dan dalam skala besar, Twitter semakin mengutamakan sikap proaktif untuk mengidentifikasi akun dan perilaku bermasalah, ketimbang menunggu sampai menerima laporan dari pengguna.
+
+Perwakilan Twitter dalam keterangan resminya menyampaikan, saat ini pihaknya fokus mengembangkan perangkat machine learning yang mampu mengidentifikasi dan mengatasi jaringan akun yang termasuk ke dalam kategori spam dan bot secara otomatis. Ini membantu mengatasi upaya memanipulasi percakapan di Twitter dalam skala besar, lintas bahasa dan zona waktu, tanpa mengandalkan laporan semata.
+
+Investasi dalam hal ini terbukti memberikan dampak positif. Menurut laporan Twitter, pada Mei 2018, sistem Twitter mampu mengidentifikasi dan melakukan tindakan pada lebih dari 9,9 juta akun spam atau bot per minggunya. Angka ini jauh meningkat dari 3,2 juta pada September 2017 dan 6,4 juta pada Desember 2017.
+
+"Karena peningkatan teknologi dan proses selama setahun terakhir, Twitter sekarang bisa menghapus 214 persen lebih banyak akun yang melanggar kebijakan kami mengenai spam dari tahun ke tahun," tulis perwakilan Twitter, Jumat (29/6).
+
+Pada waktu yang bersamaan, Twitter melaporkan jumlah rata-rata angka laporan terkait spam yang diterima melalui sistem pelaporan Twitter terus menurun, dari rata-rata 25.000 per hari pada Maret ke angka sekitar 17.000 per harinya pada bulan Mei. Terdapat penurunan sebanyak 10 persen pada laporan terkait spam melalui penelusuran sebagai hasil dari perubahan terbaru ini.
+
+Menurut perwakilan Twitter, penurunan dalam jumlah laporan yang diterima menggambarkan bahwa pengguna menghadapi lebih sedikit spam di linimasa, fitur penelusuran, dan seluruh produk Twitter. Selain itu, Twiter juga membatasi spam dan penyalahgunaan yang berasal dari Application Programming Interfaces (API).

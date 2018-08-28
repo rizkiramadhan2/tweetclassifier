@@ -1,0 +1,13 @@
+Login Twitter Bisa Pakai USB
+
+Log in ke media sosial kini lebih bervariasi, tak hanya dengan menginput username dan password atau menggunakan sistem biometrik seperti sidik jari atau pemindai wajah. 
+
+Pengguna bisa menggunakan perangkat USB untuk masuk ke akun medsos. Salah satu yang sudah bisa melakukan cara ini adalah Twitter.
+
+Dilansir detikINET dari dari Ubergzimo, Jumat (29/8/2018), Twitter telah mengumumumkan kepada penggunanya bahwa layanannya mulai mendukung penggunaan login menggunakan perangkat keamanan seperti USB.
+
+Langkah Twitter sama dengan sistem yang sudah diaplikasikan oleh sejumlah platform seperti Google dan Facebook yang memungkinkan user masuk menggunakan token bernama Yubikey. Token tersebut pun sudah memenuhi standar dari FIDO Alliance. 
+
+Ini bukan pertama kalinya Twitter menggunakan bentuk keamanan lain untuk membantu melindungi akun penggunanya. Jejaring sosial berlogo burung ini juga pernah menawarkan dukungan untuk aplikasi pihak ketiga seperti Google Authenticator dan Duo Mobile.
+
+Pengguna yang ingin tahu lebih detail mengenai cara penggunannya, bisa masuk ke halaman dukungan Twitter untuk menemukan cara petunjuk menggunakannya.

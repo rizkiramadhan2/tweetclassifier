@@ -1,0 +1,34 @@
+Server KPU Jawa Barat Down diserang Secara Masive
+
+Jakarta, CNN Indonesia -- Sejumlah pesan berantai muncul melalui aplikasi pesan instan WhatsApp dan media sosial yang menyebutkan bahwa situs Komisi Pemilihan Umum (KPU) diserang oleh hacker. Setelah ditelusuri kabar itu ternyata berita palsu atau hoax.
+
+Salah satu pesan pesan yang didapatkan oleh CNNindonesia.com, berbunyi:
+
+"Mohon maaf bila mengganggu jam pagi anda. Saya hanya minta doanya agar bisa terus berjihad di dunia Cyber. 
+Doakan kami, saya memang bukan warga Jakarta tapi ketahuilah saat ini saya dan beberapa teman skrg lg fight lawan server yg nyerang kpu:
+
+IP hacker di deteksi dari Singapura, Vietnam dan China...mereka menggunakan 6 lapis Proxy, dan menyerang dengan mengirimkan jutaan traffic dalam hitungan menit, sehingga menyebabkan server KPU down
+Skrg proxy yg nyerang nambah lg dr australia
+
+HASBUNALLAH WA'NIMAL WAKIL
+
+Secara riil hitungan di KPU DKI Jakarta menang Anies. Tapi karena ulah hacker hacker musuh laknatullah maka akan ada selisih suara yang sangat signifikan.
+
+Allahu Akbar
+Allahu Akbar
+Allahu Akbar
+
+Doakan kami.
+Mohon doanya team sedang berusaha membackup, ayo yang mau bantu pertahanin ip KPU *112.215.71.242*semakin banyak yang gabung semakin kuat , dan yang lagi depan komputer silahkan dibantu yah web KPU diserang dari 4 server yang berbeda , bertubi2."
+
+Harry Sufehmi, salah satu konsultan IT KPU dari Pusat Ilmu Komputer Universitas Indonesia (Pusilkom) UI, membantah fitnah yang menyebut situs KPU dijebol oleh hacker China, sehingga suara ahok menjadi naik.
+
+“Faktanya adalah yang sah secara hukum adalah perhitungan (rekapitulasi suara) manual. Website KPU hanya sarana untuk menampilkan informasi. Bukan alat hitung suara yang sah secara hukum,” jelasnya, kepada CNNIndonesia.com.
+
+Dia menambahkan sejauh ini sama sekali tidak ada indikasi hacking oleh hacker China, yang ditampilkan di posting pesan berantai sejauh ini justru IP address di Amerika, dan cuma tampilan tanpa makna, bukan bukti hacking.
+
+Saat ini yang menjadi concern pihaknya adalah bagaimana membuat situs KPU bisa diakses oleh pengunjung untuk mendapatkan informasi akurat tentang hasil rekapitulasi suara Pilkada serentak 2017.
+
+“Sejak tengah malam sih situs KPU sudah cepat, pageload kisaran 3 detik saat ini lagi agak lambat, karena ada beberapa server yang overload karena ramai. Kami sedang melakukan tindakan, mudah-mudahan beberapa menit lagi sudah ada hasilnya,” tandasnya.
+
+CNNIndonesia.com mencoba meminta komentar dari komisioner KPU Ferry Kurnia dan Hadar Gumay, namun belum mendapatkan respon."

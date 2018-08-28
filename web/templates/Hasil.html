@@ -1,0 +1,206 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+ {% include "baseCSS/css.html" %}
+    <script src="{% static "assets/vendor/chart-js/Chart.js" %}"></script>
+   <style>
+        .progressbar {
+            width: 50px;
+            height: 50px;
+            position: relative;
+            left: 10%;
+        }
+        .navbar-main
+        {
+            background: linear-gradient(150deg, #7795f8 15%, #6772e5 70%, #555abf 94%);
+        }
+        hr {
+            margin-top: 0px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        thead {
+            display: table-header-group;
+        }
+
+        th {
+            font-weight: bold;
+        }
+
+        th, td {
+            text-align: center;
+            padding: 8px;
+        }
+
+        .custom-btn {
+            font-size: 0.28em;
+            background-color: white;
+            border: 1px solid #5e72e4;
+            border-radius: 50%;
+            width: 17px;
+            box-shadow: none;
+            outline: none;
+        }
+
+        tr:nth-child(odd) {background-color: #f2f2f2;}
+    </style>
+</head>
+
+<body>
+
+    <header data-test="123" class="header-global">
+        <nav id="navbar-main" class="navbar navbar-main navbar-biru navbar-expand-lg">
+            <div class="container">
+                <ul class="navbar-nav align-items-lg-center ml-lg-auto">
+                    <li class="nav-item dropdown">
+                        <a href="/" class="nav-link" role="button">
+                            <span class="nav-link-inner--text text-white">Cek Tweet Lain</span>
+                        </a>              
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="section-sm" id="about">
+            <div class="container">
+                <div class="row row-grid justify-content-center">
+                    <div class="col-lg-8 text-center">
+                    <h2 class="display-4">Hasil Klasifikasi Tweet:
+                        <p style="font-size:0.8em">{{isi}}</p>
+                    </h2>
+                    <hr>
+                    <h2 id="hsl" data-hasil="{{hsl}}">{{hsl}} <span><button class="custom-btn" type="button"  data-toggle="modal" data-target="#modal-default">?</button></span></h2>
+                    <div class="modal fade" id="modal-default" tabindex="-1" role="dialog" aria-labelledby="modal-default" aria-hidden="true">
+                        <div class="modal-dialog modal- modal-dialog-centered modal-" role="document">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <h6 class="modal-title" id="modal-title-default">PERHATIAN!</h6>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">×</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="py-3 text-center">
+                                    <i class="ni ni-bell-55 ni-3x"></i>
+                                    <h4 class="heading mt-4">Perlu Anda Ketahui</h4>
+                                    <p>Hasil deteksi sistem ini tidak 100% benar. Sistem ini hanya untuk membantu anda memilah berita yang ada di Twitter. Oleh karena itu jika anda kurang yakin dengan hasil yang ada, sistem ini menyediakan berita terkait tweet yang anda masukkan.</p>
+                                </div>
+                            </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary ml-auto" data-dismiss="modal">Tutup</button>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                    <br>
+                    <hr>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="row row-grid justify-content-center">
+                <p style="font-size:1.3em" class="col-lg-8 col-md-6 col-sm-8 text-center"><b>Artikel Terkait</b></p>
+                </div>
+                <hr style="margin-bottom: 0px">
+                <br>
+                
+                <table>
+                    <tr>
+                        <th>Judul</th>
+                        <th class="text-left">Kemiripan</th>
+                    </tr>
+                    {% for titl,ur,sim in content %}
+                    <tr>
+                        <td><p style="font-size=0.8em"><a target="_blank" href="{{ur}}">{{titl}}</a></p></td>
+                        <td><p class="progressbar" id="counter{{forloop.counter}}"></p></td>
+                    </tr>
+                    {%endfor%}
+                </table>
+                
+                <br>
+                <br>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <hr>
+            <div class="row align-items-center justify-content-md-between">
+            <div class="col-md-6">
+                <div class="copyright">
+                &copy; 2018
+                <a>PKL FILKOM UNIVERSITAS BRAWIJAYA</a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </footer>
+
+    {% include "baseCSS/scripts.html" %} 
+<script type="text/javascript">    
+    $hasil = $('#hsl').data('hasil');
+    if($hasil == 'FAKTA'){
+        $('#hsl').css('color', 'green');
+    }else if($hasil == 'HOAX'){
+        $('#hsl').css('color', 'red');
+    }else{
+        $('#hsl').css('color', 'grey');
+    }
+</script>
+<script src="{% static "assets/vendor/progressbar/progressbar.js" %}"></script>
+
+        <script>
+            
+            window.onload = function onLoad() {
+                var i = 1;
+                 {% for titl,ur,sim in content %}
+                    loadProgressBar({{sim}},'#counter'+i);
+                    i++;
+                 {%endfor%}
+                
+            };
+             function loadProgressBar(percentage,id){
+                var bar = new ProgressBar.Circle(id, {
+                    color: '#aaa',
+                    // This has to be the same size as the maximum width to
+                    // prevent clipping
+                    strokeWidth: 6,
+                    trailWidth: 10,
+                    easing: 'easeInOut',
+                    duration: 1400,
+                    text: {
+                    autoStyleContainer: false
+                    },
+                    from: { color: '#ff5d00', width: 8 },
+                    to: { color: '#a5ff00', width: 10 },
+                    // Set default step function for all animate calls
+                    step: function(state, circle) {
+                    circle.path.setAttribute('stroke', state.color);
+                    circle.path.setAttribute('stroke-width', state.width);
+
+                    var value = Math.round(circle.value() * 100);
+                    if (value === 0) {
+                      circle.setText('0');
+                    } else {
+                      circle.setText(value);
+                    }
+
+                    }
+                    });
+                    bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
+                    bar.text.style.fontSize = '0.85em';
+
+                    bar.animate(percentage); 
+            }
+        </script>
+</body>
+
+</html>

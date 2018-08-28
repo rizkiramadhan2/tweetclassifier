@@ -1,0 +1,114 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    {% include "baseCSS/css.html" %}
+</head>
+
+<body>
+  <header class="header-global">
+    <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light">
+      <div class="container">
+        <a class="navbar-brand mr-lg-5" href="/">
+          <span class="nav-link-inner--text">tweet classifier</span>
+        </a>
+        <ul class="navbar-nav align-items-lg-center ml-lg-auto">
+            <a href="#about" class="nav-link" data-toggle="page-scroll" role="button">
+              <span class="nav-link-inner--text text-white">Cara Kerja</span>
+            </a>              
+          
+        </ul>
+        
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="position-relative">
+      <!-- Hero for FREE version -->
+      <section class="section-hero section-shaped my-0">
+        <div class="shape shape-style-1 shape-default">
+          
+        </div>
+        <div class="container shape-container d-flex align-items-center">
+          <div class="col px-0">
+            <div class="row justify-content-center align-items-center">
+              <div class="col-lg-7 text-center pt-lg">
+                <h3 class="display-2 text-white">Tweet Classifier
+                  <span class="display-4 text-white">good tweet for good people</span>
+                </h3>
+                
+                <p class="lead text-white mt-4 mb-5">Sistem Yang Bisa Membantu Mendeteksi Sebuah Tweet Tergolong Hoax Atau Fakta</p>
+                <div class="row">
+                    <div class="col-lg-12 col-sm-12">
+                        <form action="/post/" method="post" role="form">
+                          <div class="form-group">
+                            <div class="text-center text-white mb-4">
+                              <p>Contoh: Garuda Dinyatakan Bangkrut</p>
+                            </div>
+                            <div class="input-group input-group-alternative">
+                              
+                              <div class="input-group-prepend">
+                                <div class="input-group-text"><i class="fa fa-twitter"></i></div>
+                              </div>
+                              {% csrf_token %}
+                              <input class="form-control" type="text" name="q" required placeholder="Input URL Tweet Di Sini">
+                            </div>
+                            <input type="submit" value="Submit" class="btn btn-default my-4">
+                          </div>
+                        </form>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="row align-items-center justify-content-around stars-and-coded">
+              <!-- <div class="col-sm-4">
+                <span class="text-white alpha-7 ml-3">Data from</span>
+                <a href="https://github.com/creativetimofficial/argon-design-system" target="_blank" title="Support us on Github">
+                  <img src="./assets/img/brand/twitter.png" style="height: 40px; margin-top: -3px">
+                </a>
+              </div>
+              <div class="col-sm-4 mt-4 mt-sm-0 text-right">
+                <span class="text-white alpha-7">Coded by</span>
+                <a href="https://www.creative-tim.com" target="_blank" title="Creative Tim - Premium Bootstrap Themes and Templates">
+                  <img src="./assets/img/brand/python2.png" style="height: 70px;">
+                </a>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section-lg" id="about">
+        <div class="container">
+          <div class="row row-grid justify-content-center">
+            <div class="col-lg-8 text-center">
+              <h2 class="display-3">Cara Kerja
+                <span class="text-success">Tweet Classifier</span>
+              </h2>
+              <p class="lead">Tweet Classifier bekerja ketika pengguna memasukkan tweet. Sistem akan memproses tweet dan mencari kemungkinan fakta atau hoax terhadap data yang dimiliki oleh sistem. Selain itu sistem juga akan menampilkan artikel yang terkait dengan tweet tersebut.</p>
+            </div>
+          </div>
+          <br>
+          <br>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <hr>
+      <div class="row align-items-center justify-content-md-between">
+        <div class="col-md-6">
+          <div class="copyright">
+            &copy; 2018
+            <a>PKL FILKOM UNIVERSITAS BRAWIJAYA</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+    {% include "baseCSS/scripts.html" %} 
+</body>
+
+</html>
