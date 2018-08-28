@@ -43,7 +43,7 @@ Folder web merupakan folder resource projek untuk menjalankan aplikasi web
 
 ## Menjalankan Program
 
-Jalankan Virtual Environment untuk media Framework instalasi Django (Python Web Server) dan library Python.
+Jalankan Virtual Environment untuk media Framework Django (Python Web Server) dan library Python.
 
 Unix cmd :
 
