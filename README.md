@@ -4,8 +4,11 @@
 Sistem Yang Bisa Membantu Mendeteksi Sebuah Tweet Tergolong Hoax Atau Fakta
 
 
-## Instalasi
-library yang digunakan pada environment
+## Persiapan instalasi
+
+### Terinstall Virtual Environment Env
+
+Di dalam Env sudah terinstall:
 
 Acertifi==2018.8.13
 
@@ -35,86 +38,51 @@ tweepy==3.6.0
 
 urllib3==1.23
 
-## Getting Started
+### Terpasang folder web 
+Folder web merupakan folder resource projek untuk menjalankan aplikasi web
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+## Menjalankan Program
 
-### Prerequisites
+Jalankan Virtual Environment untuk media Framework instalasi Django (Python Web Server) dan library Python.
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+Unix cmd :
 
 ```
-Give the example
+Env $ source bin/activate
 ```
+(Untuk Windows gunakan activate.bat)
 
-And repeat
 
-```
-until finished
-```
 
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+Kemudian, jalankan server Django di dalam direktori web dengan menggunakan perintah :
 
 ```
-Give an example
+web $ python manage.py runserver
 ```
 
-### And coding style tests
-
-Explain what these tests test and why
+Sistem dijalankan menggunakan alamat
 
 ```
-Give an example
+localhost/8000
 ```
 
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Django 1.11.15](https://docs.djangoproject.com/en/2.1/releases/1.11.15/) - The web framework used
+* [Python3.6](https://www.python.org/downloads/release/python-360//) - The Programming Language used
+* [Argon Bootstrap 4](https://www.creative-tim.com/product/argon-design-system) - CSS Template
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Rizki Ramadhan** [RizkiRamadhan2](https://github.com/rizkiramadhan2)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
-## License
+* **Albert Bill Alroy**
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
+* **Muhammad Hakiem**
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+
+
